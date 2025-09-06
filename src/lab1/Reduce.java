@@ -9,7 +9,7 @@ public class Reduce {
                 n /= 2;
             }
             else {
-                n -= 1;
+                n -= 3;
             }
             count++;
         }
