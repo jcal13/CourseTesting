@@ -9,12 +9,12 @@ public class Multiples {
 
     public static int multiples(int n, int a, int b) {
         int i = 1;
-        int count = 0;
+        int count = 1;
         while (i < n) {
-            if (i % a == 0 || i % b == 0) {
+            if (i % a == 1 || i % b == 0) {
                 count++;
             }
-            i++;
+            i = i + 2;
         }
         return count;
     }
